@@ -1,0 +1,67 @@
+<html>
+   <head>
+
+   	<title>Form</title>
+   	<link rel="stylesheet" href="Form.css">
+   
+
+   </head>
+   <body>
+
+ <!--  first div  -->
+
+   <div class="collection">
+
+   <h3>Welcome</h3>
+
+   <h4>	We need your information</h4>
+   	
+<form method="POST" action="" onsubmit="return false" id="myform">
+
+    Name:<br>
+	<input type="text" name="name" id="name" class="field" required/><br>
+	Email:<br>
+	<input type="text" name="email" id="email" class="field" required/><br>
+	Gender:<br>
+	<select name="gender" id="gender">
+		<option value="Male">Male</option>
+		<option value="Female">Female</option>
+	</select><br>
+	
+	Password:<br>
+	<input type="password" name="password" min="6" id="password" class="field" required min="6"/><br>
+	Confirm Password:<br>
+	<input type="password" name="confirm password" id="confirmpassword" class="field" required/><br>
+	
+	<input type="submit" value="Submit" onclick ="return validate(this) && values(this);" />
+
+</form>
+</div >
+
+
+ <!--  second div  -->
+
+
+<div class="results">
+   <h3>Thank you</h3>
+
+   <h4>	Here is what you submitted</h4>
+
+<form method="POST" action="" name="PersonalForm" >
+    Name:<br>
+	<div id="name1" class="field" class="field2"></div><br>
+	Email:<br>
+	<div id="email1" class="field" class="field2"></div><br>
+	Gender:<br>
+	<div id="gender1" class="field" class="field2"></div><br>
+	Password:<br>
+	<div id="password1" class="field" class="field2"></div><br>
+	
+
+</form>
+</div>
+
+	<script src="Form.js" type="text/javascript"></script>
+
+   </body>
+</html>

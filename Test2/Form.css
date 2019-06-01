@@ -1,0 +1,29 @@
+.collection{
+
+	width: 40%;
+	margin-left: 30px; 
+	position: relative;
+	padding-bottom: 50px;
+
+}
+.results{
+
+	width:50%;
+    margin-left: 45%;
+    margin-top: -39.8%;
+	
+}
+
+.field{
+	margin-bottom: 20px;
+}
+
+input{
+
+	height:30px;
+	width:60%;
+}
+.field2{
+	font-size: 30px;
+	font-weight: bold; 
+}

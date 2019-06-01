@@ -1,9 +1,5 @@
 
 
-
-	
-	
-
 function validate(){
 
 	var name=document.getElementById("name").value;
